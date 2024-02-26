@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Prashamsa Koirala's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="site.js"></script>
+</head>
+
+<body>
+        <header id = "top">
+            <nav>
+                <a href="#home">Home</a> 
+                <a href="#aboutme" >About Me</a> 
+                <a href="#mywork" >Projects</a> 
+            </nav>
+        </header>
+
+        <main>
+            <section id="home">
+                <div class="content-container">
+                    <p>Hi! I'm</p>
+                    <h1>Prashamsa</h1>
+                        <div class = "icons">
+                            <a href = "https://www.linkedin.com/in/prashamsa-koirala-01091b218" title="Linkedin" target="_blank"> <i class="fa-brands fa-linkedin-in"></i> </a> 
+                            <a href = "mailto:prashamsa.koirala@duke.edu" title="Email Me" target="_blank"> <i href="#" class="fa-solid fa-envelope-open-text"></i> </a>
+                            <a href = "https://github.com/prashamsakoirala" title="GitHub" target="_blank"> <i href="#" class="fa-brands fa-gitlab"></i> </a>
+                        </div> 
+                        <div class = "arrow">
+                            <p>Scroll down to learn more about me!</p>
+                            <span>&#10549;</span>
+                        </div> 
+                </div>
+            </section>   
+        <!-- AUTHOR SECTION -->
+
+        <section id="aboutme">
+            <h1>About Me</h1>
+            <p> <img id = 'images' src = "face.png"/> 
+                <div class = "aboutmetext" id = "aboutmetext">
+                    Second-year studying Electrical Engineering & CS @ Duke University. I'm interested in fintech, software, AI, data science, and design. 
+                </div>  
+                <div class = 'hiddentext'> View this webiste on your laptop or tablet device to learn more about my projects! </div>
+            </p>
+        </section>
+
+        <!-- EXPERIENCE SECTION -->
+
+
+        <!-- PROJECTS SECTION -->
+        <section id="mywork">
+            <h1>Projects</h1>
+            <p>Hover over the cards to learn more about my projects</p>
+            <div class="cards">
+                <div class="square-card">
+                    <div class="card-header">GreenBasket
+                        <img src = "greenbasketwebimg.png"/> 
+                </div>
+                    <div class="overlay">
+                        <div class="o-text" id = "gbtext">
+                            Web app which lets users search for food products, access sustainability information, view carbon emissions distributions, and discover similar products based on EcoScores from Open Food Facts.
+                            <div class="techtext"><em><br> MongoDB, Vercel, Auth0, Bootstrap, FastAPI, Python, UVicorn, Chart.js</em></div>
+                            <div class = 'cardicons'> 
+                                <a href = "https://github.com/22raor/GreenBasket" title="GitHub" target="_blank"> <i class="fa-brands fa-gitlab"></i> </a>
+                                <a href = "https://www.youtube.com/watch?v=k70Yk9384I4" title="Demo" target="_blank"> <i class="fa-brands fa-youtube"></i> </a>
+                                <a href = "https://green-basket.vercel.app" title="Website Link" target="_blank"> <i class="fa-solid fa-arrow-pointer"></i></i></i> </a>
+                            </div>
+                            <i class="fa-solid fa-award"></i> Recognized as best use of MongoDB at HackDuke
+                        </div>
+                    </div>
+                </div>
+
+
+              <div class="square-card">
+                <div class="card-header">
+                    Loreto Malaria Dashboard
+                    <div class="dashpng">
+                        <img src = "Dashboard.png"/> 
+                    </div>
+                </div>
+                <div class="overlay">
+                    <div class="o-text">
+                        <div class="o-text-malaria">
+                            Interactive platform for Duke researchers to analyze and visualize large malaria and climate datasets in Loreto, Peru.
+                            <div class = "techtext"><em> <br> Jupyter, Python, Holoviews, Bokeh, Panel </em></div>
+                            <div class = 'cardicons'> 
+                                <a href = "https://gitlab.oit.duke.edu/codepclimate2023/code-big-data-visualization-malaria-dashboard" title="GitLab" target="_blank"> <i class="fa-brands fa-gitlab"></i> </a>
+                                <a href = "https://www.youtube.com/watch?v=usYsK2Uqa18" title="Final Presentation" target="_blank"> <i class="fa-brands fa-youtube"></i> </a>
+                                <a href = "https://www.youtube.com/watch?v=iBUPIvexVH4" title="Website Link" target="_blank"> <i class="fa-solid fa-arrow-pointer"></i></i></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+              </div>
+
+              <div class="square-card">
+                <div class="card-header">Web Portfolio 
+                    <img src = "projectswebsite.png"/> 
+                </div>
+                <div class="overlay">
+                    <div class="o-text">
+                        A web portfolio built from scratch to showcase my work.
+                        <div class = "techtext"><em> <br> HTML, CSS, JavaScript</em></div>
+                    </div>
+                </div>  
+              </div>
+          
+              <div class="square-card">
+                <div class="card-header-noimg">Handbell Choir Device</div>
+                <div class="overlay">
+                    <div class="o-text">
+                        Device that helps handbell choir members by giving them gentle vibrations as cues during their performances.
+                        <div class = "techtext"><em> <br> C++, Arudino, X-Bee, Solidworks</em></div>
+                        <div class = 'cardicons'> 
+                            <a href = "https://github.com/prashamsakoirala/handbell_choir_egr102" title="GitLab" target="_blank"> <i class="fa-brands fa-gitlab"></i> </a>
+                        </div>
+                    </div>
+                </div>  
+              </div>
+
+              <div class="square-card">
+                <div class="card-header">Library Book Notification System</div>
+                    <img src = "EGR101IMG.png" class = 'img101'/> 
+                <div class="overlay">
+                    <div class="o-text">
+                        Wireless notification system that alerts Duke Librarians when campus book drop-off stations reach capacity.
+                        <div class = "techtext"><em> <br> C++, Arudino, ESP-8266 Wifi Module</em></div>
+                        <div class = 'cardicons'> 
+                            <a href = "https://www.youtube.com/watch?v=tkgtqkXGE20" title="Video Demo" target="_blank"> <i class="fa-brands fa-youtube"></i> </a>
+                        </div>
+                    </div>
+                </div>  
+              </div>
+            </div>
+          </section>     
+
+</body>
+
+</html>
